@@ -1,0 +1,141 @@
+#title{
+    font-size: 150px;
+  }
+
+.recipes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3rem;
+    border: 5px solid #7c492d;
+    margin-bottom: 5rem;
+}
+
+  
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+tbody tr:hover {
+    transform: scale(1.01);
+    background-color: rgb(255, 205, 159);
+    box-shadow: 0 3px 10px #412617b7;
+  }
+
+th {
+    font-size: 2.1rem;
+    background-color: #ffbb91;
+}
+
+td{
+    background-color: #fce1d0;
+}
+
+button {
+  margin-left: 0.5rem;
+}
+
+tbody tr{
+    border: 2px solid #c0c0c0;
+}
+
+
+.action-cell {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .action-btn {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s;
+  }
+
+  #details{
+    background-color: #87bbff;
+  }
+  #details:hover {
+    background-color: #87bbff9a;
+  }
+
+  #delete{
+    background-color: #ff87b5;
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+  }
+
+  #delete:hover {
+    background-color: #ff87b59a;
+  }
+  
+  .action-btn:hover {
+    background-color: #ddd;
+  }
+
+
+
+  .search-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    margin-top: 2.5rem;
+    background-color: rgb(255, 185, 138);
+    border: 5px solid #7c492d;
+    border-radius: 12px;
+    color: #333;
+    box-shadow: 0 5px 15px #412617b7;
+    padding: 2rem;
+  }
+  
+  .search-controls input,
+  .search-controls select {
+    font-family: "Leckerli One", cursive;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    border: 2px solid #412617;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .search-controls input:focus,
+  .search-controls select:focus {
+    border-color: #87bbff;
+    outline: none;
+  }
+  
+  .search-controls button {
+    padding: 0.5rem 1rem;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-controls button:hover {
+    background-color: #fb8c00;
+  }
+  

@@ -1,0 +1,9 @@
+# .NET
+book/**/bin/
+book/**/obj/
+
+# Node
+frontend/**/node_modules/
+frontend/**/dist/
+
+.vs/

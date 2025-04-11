@@ -1,0 +1,63 @@
+h1{
+    font-size: 150px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    font-family: "Leckerli One", cursive;
+    color: #412617;
+  }
+  
+  .recipe-form {
+    background-color: rgb(255, 185, 138);
+    border: 5px solid #7c492d;
+    border-radius: 12px;
+    padding: 3rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    box-shadow: 0 5px 15px #412617b7;
+    margin: 2.5rem;
+  }
+  
+  .recipe-form label {
+    font-size: 1.8rem;
+  }
+  
+  .recipe-form input,
+  .recipe-form textarea {
+    font-family: "Leckerli One", cursive;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    border: 2px solid #412617;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .recipe-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .submit-btn {
+    font-family: "Leckerli One", cursive;
+    font-size: 1.6rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #ff87b5;
+    border: 3px solid #412617;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #ff87b59a;
+  }
+  
