@@ -1,8 +1,8 @@
-### Cookbook App
+# Cookbook App
 
 Aplikacja do zarządzania przepisami kulinarnymi. Pozwala tworzyć, edytować, przeglądać i usuwać własne przepisy, a także wyszukiwać inspiracje z zewnętrznego API kulinarnego (Spoonacular).
 
-# Technologie użyte w projekcie:
+### Technologie użyte w projekcie:
 
 -Backend: C# (.NET 8), Entity Framework Core, PostgreSQL
 
@@ -12,7 +12,7 @@ Aplikacja do zarządzania przepisami kulinarnymi. Pozwala tworzyć, edytować, p
 
 ## Jak uruchomić projekt lokalnie (bez Dockera):
 
-# Wymagania:
+### Wymagania:
 
 -Zainstalowany .NET 8 SDK
 
@@ -20,7 +20,7 @@ Aplikacja do zarządzania przepisami kulinarnymi. Pozwala tworzyć, edytować, p
 
 -Działająca baza danych PostgreSQL (np. lokalna instalacja lub przez pgAdmin)
 
-# Krok 1 – Backend (C#):
+### Krok 1 – Backend (C#):
 
 Otwórz terminal i przejdź do katalogu backendu:
 cookbook/backend/book/book
@@ -38,7 +38,7 @@ http://localhost:5193
 (dokładny adres powinien być podany po odpaleniu projektu)
 ten adres należy także wprowadzić do plików .jsx we frontendzie
 
-# Krok 2 – Frontend (React):
+### Krok 2 – Frontend (React):
 
 W nowym terminalu przejdź do katalogu frontendowego:
 cookbook/frontend/frontend
@@ -54,7 +54,7 @@ http://localhost:5173
 
 Połączenie backendu z frontendem: Frontend domyślnie komunikuje się z backendem pod adresem http://localhost:5193. Upewnij się, że backend został uruchomiony przed uruchomieniem frontendu.
 
-# Funkcjonalności aplikacji:
+### Funkcjonalności aplikacji:
 
 Dodawanie nowego przepisu
 
