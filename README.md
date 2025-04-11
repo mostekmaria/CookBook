@@ -41,6 +41,17 @@ W projekcie powinny znajdować się m.in.:
 
 - Swashbuckle.AspNetCore
 
+dla frontendu:
+Node.js
+Pobierz z: https://nodejs.org/
+Po instalacji sprawdź:
+node -v oraz npm -v
+
+Zależności projektu – przez npm
+W folderze frontend/frontend uruchom:
+npm install
+(pobierze wszystko z package.json, np. React, React Router, Vite itd.)
+
 ### Krok 1 – Backend (C#):
 
 Otwórz terminal i przejdź do katalogu backendu:
