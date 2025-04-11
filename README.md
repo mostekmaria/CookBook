@@ -14,11 +14,32 @@ Aplikacja do zarządzania przepisami kulinarnymi. Pozwala tworzyć, edytować, p
 
 ### Wymagania:
 
--Zainstalowany .NET 8 SDK
+.NET SDK 8.0
+- Pobierz ze strony: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+- Po instalacji sprawdź wersję:
+dotnet --version (powinno być np. 8.0.100 lub wyżej)
 
--Zainstalowany Node.js (np. wersja 18 lub wyższa)
+Entity Framework Core CLI (jeśli nie masz)
+- W terminalu wpisz:
+dotnet tool install --global dotnet-ef
+- albo jeśli już masz:
+dotnet tool update --global dotnet-ef
 
--Działająca baza danych PostgreSQL (np. lokalna instalacja lub przez pgAdmin)
+PostgreSQL
+- Pobierz np. z: https://www.postgresql.org/download/
+Potrzebny będzie Ci login, hasło i port (domyślnie 5432)
+Alternatywa: pgAdmin lub uruchomienie bazy w Dockerze (jeśli umiesz)
+
+Biblioteki NuGet (instalowane automatycznie przez dotnet restore)
+W projekcie powinny znajdować się m.in.:
+
+- Microsoft.EntityFrameworkCore
+
+- Microsoft.EntityFrameworkCore.Design
+
+- Npgsql.EntityFrameworkCore.PostgreSQL
+
+- Swashbuckle.AspNetCore
 
 ### Krok 1 – Backend (C#):
 
